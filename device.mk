@@ -25,7 +25,8 @@ PRODUCT_COPY_FILES := \
 
 # Sensors Configuration
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
+    $(DEVICE_PATH)/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
+    $(DEVICE_PATH)/vendor/etc/sensors/ganges_stk8ba53_somc_product.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ganges_stk8ba53_somc_product.json
 
 # Thermal Configuration
 PRODUCT_COPY_FILES += \
