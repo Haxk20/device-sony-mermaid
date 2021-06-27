@@ -77,6 +77,14 @@ PRODUCT_PACKAGES += \
 # SAR
 PRODUCT_PACKAGES += \
     TransPowerSensors
+    
+# Generic Sensors Configuration
+PRODUCT_PACKAGES += \
+    sdm636_default_sensors.json \
+    sns_geomag_rv.json \
+    sns_rotv.json \
+    sns_smd.json \
+    default_sensors.json
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
